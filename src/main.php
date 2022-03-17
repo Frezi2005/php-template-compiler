@@ -2,7 +2,9 @@
 
     require_once "compiler.php";
 
-    $c = new Compiler("test");
-    $c->compile();
+    //Examples location: examples/...
+    //Example: variables.ptc
+    $c = new Compiler("variables");
+    $c->compile(["name" => "Kamil", "surname" => "Waniczek", "age" => 17]);
 
 ?>
