@@ -1,5 +1,2 @@
 <<h1>>%name%</h1/>
-<<p>>%surname%</p/>
-<<div>>
-    <<p>>%age%</p/>
-</div/>
+<<h1>>%age%</h1/>

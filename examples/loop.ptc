@@ -1,0 +1,20 @@
+<<ul>>
+    #guests#
+    <<li>><<span>>%guest_name%</span/><<span>>%guest_surname%</span/><<span>>%guest_age%</span/></li/>
+    #guests#
+        <<li>><<span>>%guest_name%</span/><<span>>%guest_surname%</span/><<span>>%guest_age%</span/></li/>
+    #/guests/#
+    #/guests/#
+</ul/>
+
+<<h1>>%test%</h1/>
+
+<<table>>
+    #guests#
+    <<tr>>
+        <<td>><<span>>%guest_name%</span/></td>>
+        <<td>><<span>>%guest_surname%</span/></td>>
+        <<td>><<span>>%guest_age%</span/></td>>
+    </tr/>
+    #/guests/#
+</table/>

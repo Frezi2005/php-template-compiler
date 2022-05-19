@@ -4,7 +4,6 @@
 
     //Examples location: examples/...
     //Example: variables.ptc
-    $c = new Compiler("variables");
-    $c->compile(["name" => "Kamil", "surname" => "Waniczek", "age" => 17]);
-
+    $c = new Compiler("loop");
+    $c->compile(["guests" => [["guest_name" => "Kamil", "guest_surname" => "Waniczek", "guest_age" => 17], ["guest_name" => "Test", "guest_surname" => "Test", "guest_age" => 60]], "test" => "tekst"]);
 ?>
